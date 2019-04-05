@@ -22,6 +22,7 @@ dashboard_pwd = admin123
 
 
 #客户端运行 ./frpc.exe
+
 [common]
 
 server_addr = 服务器IP地址
