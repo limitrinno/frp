@@ -14,8 +14,6 @@ kcp_bind_port = 7000
 
 subdomain_host = domain.com
 
-kcp_bind_port = 7000
-
 dashboard_port = 6443
 
 dashboard_user = admin
