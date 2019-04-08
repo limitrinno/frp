@@ -5,15 +5,25 @@
 配置文件如下:
 
 [common]
+
 bind_port = 7000
+
 bind_udp_port = 7001
+
 kcp_bind_port = 7000
-subdomain_host = vps1.yanzhi.ml
+
+subdomain_host = domain.com
+
 kcp_bind_port = 7000
+
 dashboard_port = 6443
+
 dashboard_user = admin
+
 dashboard_pwd = admin123
+
 tcp_mux = true
+
 max_pool_count = 10
 
 
