@@ -47,19 +47,30 @@ tcp_mux = true
 
 # 客户端运行 ./frpc.exe
 [common]
-server_addr = 101.132.149.77
+
+server_addr = 服务器的IP地址
+
 server_port = 7000
+
 token = limitrinno
+
 pool_count = 3
+
 tcp_mux = true
+
 protocol = tcp
+
 tls_enable = true
+
 
 [win10-Me]
 type = tcp
+
 local_addr = 127.0.0.1
+
 local_port = 3389
-remote_port = 8000
+
+remote_port = 8000-8005
 
 
 项目地址 https://github.com/fatedier/frp/releases
