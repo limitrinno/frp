@@ -13,7 +13,7 @@ bind_udp_port = 7001
 
 kcp_bind_port = 7000
 
-# proxy_bind_addr = 127.0.0.1
+#proxy_bind_addr = 127.0.0.1
 
 dashboard_addr = 0.0.0.0
 
