@@ -13,11 +13,7 @@ bind_udp_port = 7001
 
 kcp_bind_port = 7000
 
-vhost_http_port = 8080
-
-subdomain_host = yanzhi.ml
-
-#vhost_https_port = 443
+# proxy_bind_addr = 127.0.0.1
 
 dashboard_addr = 0.0.0.0
 
@@ -39,22 +35,24 @@ token = limitrinno
 
 allow_ports = 2000-3000,3001,3003,4000-50000
 
-max_pool_count = 30
+max_pool_count = 10
 
 max_ports_per_client = 0
+
+#subdomain_host = frps.com
 
 tcp_mux = true
 
 # 客户端运行 ./frpc.exe
 [common]
 
-server_addr = 服务器的IP地址
+server_addr = 101.132.149.77
 
 server_port = 7000
 
 token = limitrinno
 
-pool_count = 3
+pool_count = 5
 
 tcp_mux = true
 
@@ -63,14 +61,15 @@ protocol = tcp
 tls_enable = true
 
 
-[win10-Me]
+[PCname]
+
 type = tcp
 
 local_addr = 127.0.0.1
 
 local_port = 3389
 
-remote_port = 8000-8005
+remote_port = 8000
 
 
 项目地址 https://github.com/fatedier/frp/releases
